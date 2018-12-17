@@ -1,0 +1,121 @@
+<!--tx.wxml-->
+<view>
+<view hidden="{{id!='tx1'}}"style="height:600px;margin-left:25px;">
+<image    src="{{txxq1}}" mode="widthFix" ></image>
+<image   src="{{txxq2}}"mode="widthFix" ></image>
+<image   src="{{txxq3}}"mode="widthFix" ></image>
+<image   src="{{txxq4}}"mode="widthFix" ></image>
+<image   src="{{txxq5}}"mode="widthFix" ></image>
+<image   src="{{txxq6}}"mode="widthFix" ></image>
+<image   src="{{txxq7}}"mode="widthFix" ></image>
+<image   src="{{txxq8}}"mode="widthFix" ></image>
+<image   src="{{txxq9}}"mode="widthFix" ></image>
+<image   src="{{txxq10}}"mode="widthFix" ></image>
+<image   src="{{txxq11}}"mode="widthFix" ></image>
+<image   src="{{txxq12}}"mode="widthFix" ></image>
+</view>
+
+<view hidden="{{id!='tx2'}}"style="height:300px;margin-left:25px;">
+<image    src="{{txxq1}}" mode="widthFix" ></image>
+<image   src="{{atxxq2}}"mode="widthFix" ></image>
+<image   src="{{atxxq3}}"mode="widthFix" ></image>
+<image   src="{{txxq4}}"mode="widthFix" ></image>
+<image   src="{{txxq5}}"mode="widthFix" ></image>
+<image   src="{{txxq6}}"mode="widthFix" ></image>
+<image   src="{{txxq7}}"mode="widthFix" ></image>
+<image   src="{{txxq8}}"mode="widthFix" ></image>
+<image   src="{{txxq9}}"mode="widthFix" ></image>
+<image   src="{{txxq10}}"mode="widthFix" ></image>
+<image   src="{{txxq11}}"mode="widthFix" ></image>
+<image   src="{{txxq12}}"mode="widthFix" ></image>
+</view>
+
+<view hidden="{{id!='tx3'}}"style="height:300px;margin-left:25px;">
+<image    src="{{txxq1}}" mode="widthFix" ></image>
+<image   src="{{btxxq2}}"mode="widthFix" ></image>
+<image   src="{{btxxq3}}"mode="widthFix" ></image>
+<image   src="{{txxq4}}"mode="widthFix" ></image>
+<image   src="{{txxq5}}"mode="widthFix" ></image>
+<image   src="{{txxq6}}"mode="widthFix" ></image>
+<image   src="{{txxq7}}"mode="widthFix" ></image>
+<image   src="{{txxq8}}"mode="widthFix" ></image>
+<image   src="{{txxq9}}"mode="widthFix" ></image>
+<image   src="{{txxq10}}"mode="widthFix" ></image>
+<image   src="{{txxq11}}"mode="widthFix" ></image>
+<image   src="{{txxq12}}"mode="widthFix" ></image>
+</view>
+
+<view hidden="{{id!='tx4'}}"style="height:300px;margin-left:25px;">
+<image    src="{{txxq1}}" mode="widthFix" ></image>
+<image   src="{{ctxxq2}}"mode="widthFix" ></image>
+<image   src="{{ctxxq3}}"mode="widthFix" ></image>
+<image   src="{{txxq4}}"mode="widthFix" ></image>
+<image   src="{{txxq5}}"mode="widthFix" ></image>
+<image   src="{{txxq6}}"mode="widthFix" ></image>
+<image   src="{{txxq7}}"mode="widthFix" ></image>
+<image   src="{{txxq8}}"mode="widthFix" ></image>
+<image   src="{{txxq9}}"mode="widthFix" ></image>
+<image   src="{{txxq10}}"mode="widthFix" ></image>
+<image   src="{{txxq11}}"mode="widthFix" ></image>
+<image   src="{{txxq12}}"mode="widthFix" ></image>
+</view>
+
+<view hidden="{{id!='tx5'}}" style="height:1000px;margin-left:25px;">
+<image    src="{{txxq1}}" mode="widthFix" ></image>
+<image   src="{{dtxxq2}}"mode="widthFix" ></image>
+<image   src="{{dtxxq3}}"mode="widthFix" ></image>
+<image   src="{{txxq4}}"mode="widthFix" ></image>
+<image   src="{{txxq5}}"mode="widthFix" ></image>
+<image   src="{{txxq6}}"mode="widthFix" ></image>
+<image   src="{{txxq7}}"mode="widthFix" ></image>
+<image   src="{{txxq8}}"mode="widthFix" ></image>
+<image   src="{{txxq9}}"mode="widthFix" ></image>
+<image   src="{{txxq10}}"mode="widthFix" ></image>
+<image   src="{{txxq11}}"mode="widthFix" ></image>
+<image   src="{{txxq12}}"mode="widthFix" ></image>
+</view>
+
+<view hidden="{{id!='tx6'}}"style="height:300px;margin-left:25px;">
+<image    src="{{txxq1}}" mode="widthFix" ></image>
+<image   src="{{etxxq2}}"mode="widthFix" ></image>
+<image   src="{{etxxq3}}"mode="widthFix" ></image>
+<image   src="{{txxq4}}"mode="widthFix" ></image>
+<image   src="{{txxq5}}"mode="widthFix" ></image>
+<image   src="{{txxq6}}"mode="widthFix" ></image>
+<image   src="{{txxq7}}"mode="widthFix" ></image>
+<image   src="{{txxq8}}"mode="widthFix" ></image>
+<image   src="{{txxq9}}"mode="widthFix" ></image>
+<image   src="{{txxq10}}"mode="widthFix" ></image>
+<image   src="{{txxq11}}"mode="widthFix" ></image>
+<image   src="{{txxq12}}"mode="widthFix" ></image>
+</view>
+
+<view hidden="{{id!='tx7'}}"style="height:300px;margin-left:25px;">
+<image    src="{{txxq1}}" mode="widthFix" ></image>
+<image   src="{{ftxxq2}}"mode="widthFix" ></image>
+<image   src="{{ftxxq3}}"mode="widthFix" ></image>
+<image   src="{{txxq4}}"mode="widthFix" ></image>
+<image   src="{{txxq5}}"mode="widthFix" ></image>
+<image   src="{{txxq6}}"mode="widthFix" ></image>
+<image   src="{{txxq7}}"mode="widthFix" ></image>
+<image   src="{{txxq8}}"mode="widthFix" ></image>
+<image   src="{{txxq9}}"mode="widthFix" ></image>
+<image   src="{{txxq10}}"mode="widthFix" ></image>
+<image   src="{{txxq11}}"mode="widthFix" ></image>
+<image   src="{{txxq12}}"mode="widthFix" ></image>
+</view>
+
+<view hidden="{{id!='tx8'}}"style="height:300px;margin-left:25px;">
+<image    src="{{txxq1}}" mode="widthFix" ></image>
+<image   src="{{gtxxq3}}"mode="widthFix" ></image>
+<image   src="{{txxq4}}"mode="widthFix" ></image>
+<image   src="{{txxq5}}"mode="widthFix" ></image>
+<image   src="{{txxq6}}"mode="widthFix" ></image>
+<image   src="{{txxq7}}"mode="widthFix" ></image>
+<image   src="{{txxq8}}"mode="widthFix" ></image>
+<image   src="{{txxq9}}"mode="widthFix" ></image>
+<image   src="{{txxq10}}"mode="widthFix" ></image>
+<image   src="{{txxq11}}"mode="widthFix" ></image>
+<image   src="{{txxq12}}"mode="widthFix" ></image>
+</view>
+</view>

@@ -1,0 +1,4 @@
+/* shoes.wxss */
+.container2 {
+  height:600px;
+} 

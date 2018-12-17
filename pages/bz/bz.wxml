@@ -1,0 +1,158 @@
+<!--bz.wxml-->
+<view>
+<view hidden="{{id!='bz1'}}"style="height:300px;margin-left:25px;">
+<image src="{{bzxq1}}" mode="widthFix"></image>
+<image  src="{{bzxq2}}"mode="widthFix"></image>
+<image  src="{{bzxq3}}"mode="widthFix"></image>
+<image  src="{{bzxq4}}" mode="widthFix" ></image>
+<image  src="{{bzxq5}}"mode="widthFix" ></image>
+<image  src="{{bzxq6}}"mode="widthFix" ></image>
+<image  src="{{bzxq7}}"mode="widthFix" ></image>
+<image src="{{bzxq8}}"mode="widthFix" ></image>
+<image src="{{bzxq9}}"mode="widthFix" ></image>
+</view>
+
+<view hidden="{{id!='bz2'}}"style="height:300px;margin-left:25px;">
+<image src="{{bzxq1}}" mode="widthFix"></image>
+<image  src="{{abzxq2}}"mode="widthFix"></image>
+<image  src="{{abzxq3}}"mode="widthFix"></image>
+<image  src="{{bzxq4}}" mode="widthFix" ></image>
+<image  src="{{bzxq5}}"mode="widthFix" ></image>
+<image  src="{{bzxq6}}"mode="widthFix" ></image>
+<image  src="{{bzxq7}}"mode="widthFix" ></image>
+<image src="{{bzxq8}}"mode="widthFix" ></image>
+<image src="{{bzxq9}}"mode="widthFix" ></image>
+</view>
+
+<view hidden="{{id!='bz3'}}"style="height:300px;margin-left:25px;">
+<image src="{{bzxq1}}" mode="widthFix"></image>
+<image  src="{{bbzxq2}}"mode="widthFix"></image>
+<image  src="{{bbzxq3}}"mode="widthFix"></image>
+<image  src="{{bzxq4}}" mode="widthFix" ></image>
+<image  src="{{bzxq5}}"mode="widthFix" ></image>
+<image  src="{{bzxq6}}"mode="widthFix" ></image>
+<image  src="{{bzxq7}}"mode="widthFix" ></image>
+<image src="{{bzxq8}}"mode="widthFix" ></image>
+<image src="{{bzxq9}}"mode="widthFix" ></image>
+</view>
+
+<view hidden="{{id!='bz4'}}"style="height:300px;margin-left:25px;">
+<image src="{{bzxq1}}" mode="widthFix"></image>
+<image  src="{{cbzxq2}}"mode="widthFix"></image>
+<image  src="{{cbzxq3}}"mode="widthFix"></image>
+<image  src="{{bzxq4}}" mode="widthFix" ></image>
+<image  src="{{bzxq5}}"mode="widthFix" ></image>
+<image  src="{{bzxq6}}"mode="widthFix" ></image>
+<image  src="{{bzxq7}}"mode="widthFix" ></image>
+<image src="{{bzxq8}}"mode="widthFix" ></image>
+<image src="{{bzxq9}}"mode="widthFix" ></image>
+</view>
+
+<view hidden="{{id!='bz5'}}"style="height:300px;margin-left:25px;">
+<image src="{{bzxq1}}" mode="widthFix"></image>
+<image  src="{{dbzxq2}}"mode="widthFix"></image>
+<image  src="{{dbzxq3}}"mode="widthFix"></image>
+<image  src="{{bzxq4}}" mode="widthFix" ></image>
+<image  src="{{bzxq5}}"mode="widthFix" ></image>
+<image  src="{{bzxq6}}"mode="widthFix" ></image>
+<image  src="{{bzxq7}}"mode="widthFix" ></image>
+<image src="{{bzxq8}}"mode="widthFix" ></image>
+<image src="{{bzxq9}}"mode="widthFix" ></image>
+</view>
+
+<view hidden="{{id!='bz6'}}"style="height:300px;margin-left:25px;">
+<image src="{{bzxq1}}" mode="widthFix"></image>
+<image  src="{{ebzxq2}}"mode="widthFix"></image>
+<image  src="{{ebzxq3}}"mode="widthFix"></image>
+<image  src="{{bzxq4}}" mode="widthFix" ></image>
+<image  src="{{bzxq5}}"mode="widthFix" ></image>
+<image  src="{{bzxq6}}"mode="widthFix" ></image>
+<image  src="{{bzxq7}}"mode="widthFix" ></image>
+<image src="{{bzxq8}}"mode="widthFix" ></image>
+<image src="{{bzxq9}}"mode="widthFix" ></image>
+</view>
+
+<view hidden="{{id!='bz7'}}"style="height:300px;margin-left:25px;">
+<image src="{{bzxq1}}" mode="widthFix"></image>
+<image  src="{{fbzxq2}}"mode="widthFix"></image>
+<image  src="{{fbzxq3}}"mode="widthFix"></image>
+<image  src="{{bzxq4}}" mode="widthFix" ></image>
+<image  src="{{bzxq5}}"mode="widthFix" ></image>
+<image  src="{{bzxq6}}"mode="widthFix" ></image>
+<image  src="{{bzxq7}}"mode="widthFix" ></image>
+<image src="{{bzxq8}}"mode="widthFix" ></image>
+<image src="{{bzxq9}}"mode="widthFix" ></image>
+</view>
+
+<view hidden="{{id!='bz8'}}"style="height:300px;margin-left:25px;">
+<image src="{{bzxq1}}" mode="widthFix"></image>
+<image  src="{{gbzxq2}}"mode="widthFix"></image>
+<image  src="{{gbzxq3}}"mode="widthFix"></image>
+<image  src="{{bzxq4}}" mode="widthFix" ></image>
+<image  src="{{bzxq5}}"mode="widthFix" ></image>
+<image  src="{{bzxq6}}"mode="widthFix" ></image>
+<image  src="{{bzxq7}}"mode="widthFix" ></image>
+<image src="{{bzxq8}}"mode="widthFix" ></image>
+<image src="{{bzxq9}}"mode="widthFix" ></image>
+</view>
+
+<view hidden="{{id!='bz9'}}"style="height:300px;margin-left:25px;">
+<image src="{{bzxq1}}" mode="widthFix"></image>
+<image  src="{{hbzxq2}}"mode="widthFix"></image>
+<image  src="{{hbzxq3}}"mode="widthFix"></image>
+<image  src="{{bzxq4}}" mode="widthFix" ></image>
+<image  src="{{bzxq5}}"mode="widthFix" ></image>
+<image  src="{{bzxq6}}"mode="widthFix" ></image>
+<image  src="{{bzxq7}}"mode="widthFix" ></image>
+<image src="{{bzxq8}}"mode="widthFix" ></image>
+<image src="{{bzxq9}}"mode="widthFix" ></image>
+</view>
+
+<view hidden="{{id!='bz10'}}"style="height:300px;margin-left:25px;">
+<image src="{{bzxq1}}" mode="widthFix"></image>
+<image  src="{{ibzxq2}}"mode="widthFix"></image>
+<image  src="{{ibzxq3}}"mode="widthFix"></image>
+<image  src="{{bzxq4}}" mode="widthFix" ></image>
+<image  src="{{bzxq5}}"mode="widthFix" ></image>
+<image  src="{{bzxq6}}"mode="widthFix" ></image>
+<image  src="{{bzxq7}}"mode="widthFix" ></image>
+<image src="{{bzxq8}}"mode="widthFix" ></image>
+<image src="{{bzxq9}}"mode="widthFix" ></image>
+</view>
+
+<view hidden="{{id!='bz11'}}"style="height:300px;margin-left:25px;">
+<image src="{{bzxq1}}" mode="widthFix"></image>
+<image  src="{{jbzxq2}}"mode="widthFix"></image>
+<image  src="{{jbzxq3}}"mode="widthFix"></image>
+<image  src="{{bzxq4}}" mode="widthFix" ></image>
+<image  src="{{bzxq5}}"mode="widthFix" ></image>
+<image  src="{{bzxq6}}"mode="widthFix" ></image>
+<image  src="{{bzxq7}}"mode="widthFix" ></image>
+<image src="{{bzxq8}}"mode="widthFix" ></image>
+<image src="{{bzxq9}}"mode="widthFix" ></image>
+</view>
+
+<view hidden="{{id!='bz12'}}"style="height:300px;margin-left:25px;">
+<image src="{{bzxq1}}" mode="widthFix"></image>
+<image  src="{{kbzxq2}}"mode="widthFix"></image>
+<image  src="{{kbzxq3}}"mode="widthFix"></image>
+<image  src="{{bzxq4}}" mode="widthFix" ></image>
+<image  src="{{bzxq5}}"mode="widthFix" ></image>
+<image  src="{{bzxq6}}"mode="widthFix" ></image>
+<image  src="{{bzxq7}}"mode="widthFix" ></image>
+<image src="{{bzxq8}}"mode="widthFix" ></image>
+<image src="{{bzxq9}}"mode="widthFix" ></image>
+</view>
+
+<view hidden="{{id!='bz13'}}"style="height:300px;margin-left:25px;">
+<image src="{{bzxq1}}" mode="widthFix"></image>
+<image  src="{{lbzxq3}}"mode="widthFix"></image>
+<image  src="{{bzxq4}}" mode="widthFix" ></image>
+<image  src="{{bzxq5}}"mode="widthFix" ></image>
+<image  src="{{bzxq6}}"mode="widthFix" ></image>
+<image  src="{{bzxq7}}"mode="widthFix" ></image>
+<image src="{{bzxq8}}"mode="widthFix" ></image>
+<image src="{{bzxq9}}"mode="widthFix" ></image>
+
+</view>
+</view>

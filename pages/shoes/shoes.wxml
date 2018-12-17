@@ -1,0 +1,58 @@
+<!--shoes.wxml-->
+<view style="container container2" >
+<view class="line-container">
+<view class="every-container"bindtap="tx" id="tx1" >
+<view class="top-container"><text>T1 15*15*5cm</text></view>
+<view class="middle-container" style="background:url({{tx1}});background-size:100% 100%;"></view>
+<view style="text-align:center;padding:5px;font-size:12px;"><text>飞机盒T1三层</text></view>
+</view>
+<view class="every-container"bindtap="tx" id="tx2">
+<view class="top-container"><text>T2 20*14*4cm</text></view>
+<view class="middle-container" style="background:url({{tx1}});background-size:100% 100%;"></view>
+<view style="text-align:center;padding:5px;font-size:12px;"><text>飞机盒T2三层</text></view>
+</view>
+<view class="every-container"bindtap="tx" id="tx3">
+<view class="top-container"><text>T3 27*16.5*5cm</text></view>
+<view class="middle-container" style="background:url({{tx1}});background-size:100% 100%;"></view>
+<view style="text-align:center;padding:5px;font-size:12px;"><text>飞机盒T3三层</text></view>
+</view>
+</view>
+
+<view class="line-container">
+<view class="every-container"bindtap="tx" id="tx4" >
+<view class="top-container"><text>T4 25*20*7cm</text></view>
+<view class="middle-container" style="background:url({{tx1}});background-size:100% 100%;"></view>
+<view style="text-align:center;padding:5px;font-size:12px;"><text>飞机盒T4三层</text></view>
+</view>
+<view class="every-container"bindtap="tx" id="tx5">
+<view class="top-container"><text>T5 30*21.5*5cm</text></view>
+<view class="middle-container" style="background:url({{tx1}});background-size:100% 100%;"></view>
+<view style="text-align:center;padding:5px;font-size:12px;"><text>飞机盒T5三层</text></view>
+</view>
+<view class="every-container"bindtap="tx" id="tx6">
+<view class="top-container"><text>T6 36*30*6cm</text></view>
+<view class="middle-container" style="background:url({{tx1}});background-size:100% 100%;"></view>
+<view style="text-align:center;padding:5px;font-size:12px;"><text>飞机盒T6三层</text></view>
+</view>
+</view>
+
+<view class="line-container">
+<view class="every-container"bindtap="tx" id="tx7" >
+<view class="top-container"><text>T7 36*25*12cm</text></view>
+<view class="middle-container" style="background:url({{tx1}});background-size:100% 100%;"></view>
+<view style="text-align:center;padding:5px;font-size:12px;"><text>飞机盒T7三层</text></view>
+</view>
+<view class="every-container"bindtap="tx" id="tx8">
+<view class="top-container"><text>可根据要求定做</text></view>
+<view class="middle-container" style="background:url({{tx8}});background-size:100% 100%;"></view>
+<view style="text-align:center;padding:5px;font-size:12px;"><text>飞机盒T1-T7可定做</text></view>
+</view>
+<view style="flex-grow:1;margin-right:10px;height:140px;" bindtap="tx" id="tx9">
+<view style="display:flex;flex-direction:column;height:78%;"></view>
+<view style="text-align:center;padding:5px;font-size:12px;color:white"><text>飞机盒T1-T7可定做</text></view>
+</view>
+</view>
+</view>
+
+
+

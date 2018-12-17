@@ -1,0 +1,38 @@
+/**app.wxss**/
+.container {
+  display:flex;
+  flex-direction:column;
+  flex-grow:1,
+} 
+.line-container {
+  display:flex;
+  flex-grow:1;
+  margin-top:20px;
+} 
+.every-container {
+ flex-grow:1;
+ margin-right:10px;
+ height:170px;
+} 
+.top-container {
+text-align:center;
+padding:4px;
+height:10%;
+font-size:9px;
+font-weight:bold;
+background-color:#f1eee9;
+}
+.middle-container {
+display:flex;
+flex-direction:column;
+height:65%;
+} 
+.bottom-container {
+text-align:center;
+padding-top:12px;
+height:18%;
+font-size:12px;
+} 
+
+ 
+

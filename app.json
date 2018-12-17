@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/shoes/shoes",
+    "pages/tx/tx",
+    "pages/tool/tool",
+    "pages/pillow/pillow",
+    "pages/bz/bz"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "广州市飞扬纸箱包装有限公司",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+          "iconPath": "/image/sy1.jpg",
+          "selectedIconPath": "/image/sy2.jpg",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/pillow/pillow",
+        "iconPath": "/image/bz1.jpg",
+        "selectedIconPath": "/image/bz2.jpg",
+        "text": "邮政纸箱"
+      },
+      {
+        "pagePath": "pages/shoes/shoes",
+        "iconPath": "/image/tx1.jpg",
+        "selectedIconPath": "/image/tx2.jpg",
+        "text": "飞机盒"
+      },
+      {
+        "pagePath": "pages/tool/tool",
+        "iconPath": "/image/gz1.jpg",
+        "selectedIconPath": "/image/gz2.jpg",
+        "text": "订制"
+      }
+    ],
+    "borderStyle": "white"
+  }
+}

@@ -1,0 +1,67 @@
+.swiper-container{
+ position: relative;
+}
+.swiper-container .swiper{
+ height: 450rpx;
+}
+.swiper-container .swiper .img{
+ width: 100%;
+
+}
+.swiper-container .dots{
+ position: absolute;
+ left: 0;
+ right: 0;
+ bottom: 20rpx;
+ display: flex;
+ justify-content: center;
+}
+.swiper-container .dots .dot{
+ margin: 0 8rpx;
+ width: 14rpx;
+ height: 14rpx;
+ background: #fff;
+ border-radius: 8rpx;
+ transition: all .6s;
+}
+.swiper-container .dots .dot.active{
+ width: 24rpx;
+ background: #f80;
+}
+.jstt{
+  border:solid,1px;
+  display:flex;
+  flex-direction:column;
+  height:240rpx;
+  border-radius: 8rpx;
+  margin-top:10px;
+}
+.jsa{
+background-color:brown;
+width:30%;
+color:white;
+text-align:center;
+border-radius: 8rpx;
+height:50rpx;
+margin-top:10px;
+margin:0 auto;
+}
+.jsb{
+background-color:yellow; 
+width:100%;
+margin-top:10px;
+color:red; 
+height:160rpx;
+color:black;
+font-size:14px;
+text-indent:2em;
+}
+.jsc{
+background-color:yellow; 
+width:100%;
+margin-top:10px;
+color:red; 
+height:160rpx;
+color:black;
+font-size:14px;
+}

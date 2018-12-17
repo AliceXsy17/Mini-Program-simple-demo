@@ -1,0 +1,81 @@
+
+<view class="swiper-container" style="display:flex;flex-direction:column;">
+<view style="background:url({{tt}});background-size:100% 100%;height:60px"></view>
+
+ <swiper autoplay="auto" interval="5000" duration="500" current="{{swiperCurrent}}" bindchange="swiperChange" class="swiper" >
+  <block wx:for="{{slider}}"  wx:key="unique">
+   <swiper-item>
+    <image src="{{item}}" bindtap="try" data-index="{{index}}" class="img" />
+   </swiper-item>
+  </block>
+ </swiper>
+ <view class="dots">
+  <block wx:for="{{slider}}" wx:key="unique">
+   <view class="dot{{index == swiperCurrent ? ' active' : ''}}"></view>
+  </block>
+ </view>
+</view>
+<view style="height:25px;background-color:#ccc;margin-top:10px;padding-top:12px;padding-left:15px;font-weight:bold;">案例展示</view>
+<view style="display:flex;flex-direction:column;flex-grow:1;height:500px;" >
+
+<view style="display:flex;flex-grow:1;margin-top:20px;">
+<view style="flex-grow:1;margin-right:10px;height:140px;" bindtap="tx" id="tx1" >
+<view style="display:flex;flex-direction:column;height:78%;background:url({{tx1}});background-size:100% 100%;"></view>
+<view style="text-align:center;padding:5px;font-size:14px;"><text>普通/特硬纸箱</text></view>
+</view>
+<view style="flex-grow:1;margin-right:10px;height:140px;" bindtap="tx" id="tx2">
+<view style="display:flex;flex-direction:column;height:78%;background:url({{tx2}});background-size:100% 100%;"></view>
+<view style="text-align:center;padding:5px;font-size:14px;"><text>飞机盒/啤盒</text></view>
+</view>
+<view style="flex-grow:1;margin-right:10px;height:140px;" bindtap="tx" id="tx3">
+<view style="display:flex;flex-direction:column;height:78%;background-color:green;background:url({{tx3}});background-size:100% 100%;"></view>
+<view style="text-align:center;padding:5px;font-size:14px;"><text>邮政/快递纸箱</text></view>
+</view>
+</view>
+
+<view style="display:flex;flex-grow:1;margin-top:20px;">
+<view style="flex-grow:1;margin-right:10px;height:140px;"  >
+<view style="display:flex;flex-direction:column;height:78%;background-color:green;background:url({{tx4}});background-size:100% 100%;"></view>
+<view style="text-align:center;padding:10px;font-size:14px;"><text>搬家纸箱</text></view>
+</view>
+<view style="flex-grow:1;margin-right:10px;height:140px;" >
+<view style="display:flex;flex-direction:column;height:78%;background-color:green;background:url({{tx5}});background-size:100% 100%;"></view>
+<view style="text-align:center;padding:5px;font-size:14px;"><text>淘宝纸箱</text></view>
+</view>
+<view style="flex-grow:1;margin-right:10px;height:140px;">
+<view style="display:flex;flex-direction:column;height:78%;background-color:green;background:url({{tx6}});background-size:100% 100%;"></view>
+<view style="text-align:center;padding:5px;font-size:14px;"><text>异型纸箱</text></view>
+</view>
+</view>
+
+<view style="display:flex;flex-grow:1;margin-top:20px;">
+<view style="flex-grow:1;margin-right:10px;height:140px;"  >
+<view style="display:flex;flex-direction:column;height:78%;background-color:green;background:url({{tx7}});background-size:100% 100%;"></view>
+<view style="text-align:center;padding:5px;font-size:14px;"><text>出口纸箱</text></view>
+</view>
+<view style="flex-grow:1;margin-right:10px;height:140px;" >
+<view style="display:flex;flex-direction:column;height:78%;background-color:green;background:url({{tx8}});background-size:100% 100%;"></view>
+<view style="text-align:center;padding:5px;font-size:14px;"><text>彩色纸箱</text></view>
+</view>
+<view style="flex-grow:1;margin-right:10px;height:140px;" >
+<view style="display:flex;flex-direction:column;height:78%;background-color:green;background:url({{tx9}});background-size:100% 100%;"></view>
+<view style="text-align:center;padding:5px;font-size:14px;"><text>天地盖</text></view>
+</view>
+</view>
+
+</view>
+
+<view style="height:25px;background-color:#ccc;margin-top:10px;padding-top:12px;padding-left:15px;font-weight:bold;">公司简介</view>
+
+ <view style="margin-left:25px;margin-top:10px;">
+<image  src="{{gs3}}"mode="widthFix" ></image>
+<image bindtap="call" src="{{lxw}}"mode="widthFix" ></image>
+</view>
+<view style="color:white;background:black;">
+<view >
+<image style="width:50px;height:50px;display:inline-block;margin:10px;"src="/image/logo.jpg"/></view><text>专注纸箱包装15年</text><image style="width:100px;height:100px;display:block;float:right;margin-right:10px;"src="/image/ewm.jpg"/>
+<view >
+<text style="font-size:14px;margin-bottom:10px;margin-right:10px;">服务热线：18802099133 \n客服QQ1:447147250 \n客服QQ2:344851596 \n地址：广州市白云区嘉禾街长红村苏太路二横路12号 </text>
+</view>
+</view>
+
